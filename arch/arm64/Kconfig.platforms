@@ -477,6 +477,12 @@ config MACH_XIAOMI_SM8150
 	help
 	  Support for Xiaomi SM8150 devices
 
+config MACH_XIAOMI_ANDROMEDA
+	bool "Xiaomi andromeda board"
+	select MACH_XIAOMI_SM8150
+	help
+	  Support for Mi MIX 3 5G
+
 config MACH_XIAOMI_VAYU
 	bool "Xiaomi vayu board"
 	select MACH_XIAOMI_SM8150
